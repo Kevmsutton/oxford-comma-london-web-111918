@@ -1,5 +1,5 @@
 def oxford_comma(elements)
-first_elements = elements.join (", ")
+
 	if elements.length == 1
 	return elements.shift
   elsif elements.length == 2
