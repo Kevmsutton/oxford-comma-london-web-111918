@@ -10,4 +10,4 @@ first_elements = elements.join (", ")
 end
 end
 
-oxford_comma(["fiddleheads","okra","kohlrabi"])
+oxford_comma(["fiddleheads"])
