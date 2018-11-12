@@ -5,5 +5,6 @@ first_elements = elements.join (", ")
   elsif elements.length == 2
   return "#{elements[0]}and #{elements[1]}"
 end
+end
 
 oxford_comma(["fiddleheads"])
