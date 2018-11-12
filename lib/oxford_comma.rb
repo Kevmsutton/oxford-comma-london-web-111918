@@ -1,6 +1,7 @@
 def oxford_comma(elements)
 	if elements.length == 1
 	return "#{first_elements}"
+end
 
 last = elements.pop
 first_elements = elements.join (", ")
