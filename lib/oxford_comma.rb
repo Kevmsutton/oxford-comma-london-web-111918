@@ -5,6 +5,7 @@ def oxford_comma(elements)
   return "#{elements[0]} and #{elements[1]}"
   elsif elements.length > 2
   first_elements = elements.join (", ")
+  last = elements.pop
   
   return 
 end
