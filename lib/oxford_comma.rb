@@ -3,7 +3,7 @@ def oxford_comma(elements)
 	first_elements = elements.join (", ")
 	if elements.length >3
 	return "#{first_elements}, and #{last}"
-	elseif elements.length == 2
+	elsif elements.length == 2
 	return "#{first_elements} and #{last}"
 end
 end
